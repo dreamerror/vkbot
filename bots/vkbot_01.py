@@ -22,7 +22,7 @@ for event in longpoll.listen():
         print(event.user_id)
         response = event.text.lower()
         if event.from_user and not event.from_me:
-            if response == "привет":
+            if response == "12!":
                 vk_session.method('messages.send', {'user_id': event.user_id,
                                                     'message': 'И тебе привет от бота!', 'random_id': 0})
             
