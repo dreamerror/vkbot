@@ -4,7 +4,7 @@ import vk_api
 from datetime import datetime
 
 # session = requests.Session()
-login, password = '89243802946', 'trynottodie'
+login, password = 'login', 'password'
 vk_session = vk_api.VkApi(login=login, password=password, app_id=2685278)
 try:
     vk_session.auth(token_only=True)
