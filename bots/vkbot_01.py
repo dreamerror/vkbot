@@ -11,7 +11,7 @@ HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
                          'Chrome/81.0.4044.138 YaBrowser/20.4.2.201 Yowser/2.5 Yptp/1.23 Safari/537.36',
            'accept': '*/*'}
 
-login, password = '89243802946', 'trynottodie'
+login, password = 'login', 'password'
 vk_session = vk_api.VkApi(login=login, password=password, app_id=2685278)
 try:
     vk_session.auth(token_only=True)
