@@ -11,7 +11,7 @@ HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
                          'Chrome/81.0.4044.138 YaBrowser/20.4.2.201 Yowser/2.5 Yptp/1.23 Safari/537.36',
            'accept': '*/*'}
 
-token = '93d91c4f8c5582aabdf897639a7231f62805e1e4a8bc6b8150351f42bff80be828fbd7f05b1809a44f857'
+token = 'token'
 vk_session = vk_api.VkApi(token=token)
 try:
     vk_session = vk_api.VkApi(token=token)
